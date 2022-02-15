@@ -1,0 +1,97 @@
+/* Colors and fonts */
+
+
+body {
+	background: rgb(254, 245, 237);
+	color: rgb(173, 194, 169);
+	font-family: 'Kaisei Decol', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: 'Spartan', sans-serif;
+}
+h1 {
+	color: rgb(153, 167, 153);
+	font-size: 34px;
+	font-weight: 700;
+}
+h2 {
+	color: rgb(153, 167, 153);
+	font-size: 34px;
+	font-weight: 500;
+}
+a {
+	font-family: 'Spartan', sans-serif;
+	text-decoration :none;
+	color: rgb(85, 132, 172);
+	font-weight: bold;
+	font-size: 17px;
+}
+a:hover {
+	color:  white;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+.img-circle { 
+	 border-radius: 50%;
+}
+.btn-blue { 
+	background-color: rgb(85, 132, 172);
+	color:  white;
+	padding:  15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover { 
+	background-color: rgb(223, 211, 195);
+	color: white;
+}
+
+.list-inline { 
+	list-style: none;
+	padding-left:  0px;
+}
+
+.list-inline li { 
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 45px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: rgb(223, 211, 195);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
